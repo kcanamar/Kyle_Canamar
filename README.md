@@ -1,13 +1,3 @@
-## 2022 NextJS Portfolio Template
-
-head over the repo and generate a copy by clicking "use template"
-
-https://github.com/AlexMercedCoder/2022-portfolio-template
-
-Then clone the template so you can work on it.
-
-[Video On How to use this Template](https://youtu.be/JspsbFj5BlA)
-
 #### Data
 
 In the data folder you can find 
