@@ -1,14 +1,15 @@
 // Use this object to deliver information about you!
 
 const about = {
-  name: "Somebody",
-  title: "Somebody's Portfolio",
+  name: "Kyle Canamar",
+  title: "Kyle Canamar",
   headshot:
-    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTI_D7EI-JyKW6DUp5AAoGHQ9kV11tg6cUOcw&usqp=CAU",
+    'https://media-exp2.licdn.com/dms/image/C5603AQErSHf_5d4rGA/profile-displayphoto-shrink_200_200/0/1651195536336?e=1661990400&v=beta&t=c_tLFEGtysiee2s3ogxXQNwpIKbkTmiwqx8DmzSFQb4',
+  // todo: update info
   description:
-    "I am a developer that specializes in frontend applications using ReactJS. I enjoy developing pleasant user experiences that apply responsive styling and accessibility best practices.",
+    "Hello, I am Kyle Canamar, a Full-Stack Software Developer. I enjoy developing...",
   skills:
-    "React, Express, Javascript, MongoDB, PostgresDB, Django, Python, EJS, jQuery",
+    "React, Express, Javascript, MongoDB, PostgresDB, Django, Python, EJS, jQuery, Nodejs, Vue, MaterialUi",
   github: "",
   linkedIn: "",
   twitter: "",

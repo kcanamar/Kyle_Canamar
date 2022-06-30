@@ -11,7 +11,7 @@ export default function Home() {
     <MainWrapper>
 
       <Row>
-        <Heading> I am {about.name}</Heading><div>
+        <Heading> I am limitless in my problem solving ability</Heading><div>
           <img src={about.headshot} alt={about.title}/>
         </div>
       </Row>
