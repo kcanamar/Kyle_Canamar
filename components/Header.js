@@ -5,12 +5,11 @@ import Link from "next/link";
 function Header(props) {
   return (
     <NavBar>
-      <Title>{about.title}</Title>
+      <Title>{about.logo}</Title>
       <Menu>
           <Link href="/blog"><SubLink>Blog</SubLink></Link>
-          <ALink href={about.github}>Github</ALink>
-          <ALink href={about.linkedIn}>LinkedIn</ALink>
-          <ALink href={about.twitter}>Twitter</ALink>
+          <ALink href={about.github}><i class="fa-brands fa-github-alt fa-3x"></i></ALink>
+          <ALink href={about.linkedIn}><i class="fa-brands fa-linkedin-in fa-3x"></i></ALink>
       </Menu>
     </NavBar>
   );

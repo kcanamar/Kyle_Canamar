@@ -14,7 +14,6 @@ justify-content: space-between;
 padding: 20px;
 align-items: center;
 margin: auto;
-border: 4px solid ${theme.color3};
 `
 export const Menu = styled.div`
 width: 30%;
@@ -22,19 +21,20 @@ display: flex;
 justify-content: space-around;
 `
 
-export const SubLink = styled.div`
-color: ${theme.color3};
+export const SubLink = styled.a`
+color: ${theme.color2};
+font-size: 2.5rem;
 &:hover {
-    color: ${theme.color2};
+    color: ${theme.color5};
     cursor: pointer;
 };
 `
 
 export const ALink = styled.a`
-color: ${theme.color3};
+color: ${theme.color2};
 text-decoration: none;
 &:hover {
-    color: ${theme.color2};
+    color: ${theme.color5};
     cursor: pointer;
 };
 `

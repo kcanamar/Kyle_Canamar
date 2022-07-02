@@ -6,6 +6,11 @@ width: ${theme.pageWidth};
 margin: 20px auto;
 `
 
+export const Column = styled.div`
+display:flex;
+`
+// todo create Desciption styled.div and Skills styled.div
+
 export const Row = styled.div`
 display: flex;
 justify-content: space-around;
@@ -14,7 +19,7 @@ flex-wrap: wrap;
 `
 
 export const Heading = styled.h2`
-color: ${theme.color3};
+color: ${theme.color4};
 font-size: 2.5em;
 text-align: center;
 `
