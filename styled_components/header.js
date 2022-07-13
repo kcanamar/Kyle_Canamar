@@ -11,7 +11,7 @@ width: ${theme.pageWidth};
 min-width: 300px;
 display: flex;
 justify-content: space-between;
-padding: 20px;
+// padding: 20px;
 align-items: center;
 margin: auto;
 `

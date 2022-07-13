@@ -1,13 +1,13 @@
 ---
-title: "This is an example post"
-author: "Alex Merced"
-category: "example"
-date: "2022-03-13"
-bannerImage: "https://isaiahcounselingandwellness.com/wp-content/uploads/2018/06/Tryzens-Blog-Page-Banner.jpg"
+title: "Coming Soon"
+author: "Kyle Canamar"
+category: "Coming Soon"
+date: "2022-07-13"
+bannerImage: "https://media.istockphoto.com/photos/delivering-quality-construction-for-a-quality-lifestyle-picture-id1297780288?b=1&k=20&m=1297780288&s=170667a&w=0&h=NDdDs9BBGULLwYUDUt1AjIOroHuwmFY9N6ZEDAYV7sE="
 tags:
-    - example
+    - Coming Soon
 ---
 
-## This is an example blog post
+## Under Construction
 
-This is sample content. The section above is called Frontmatter where we can add post metadata like title and author. You can add as little or as many properties in the frontmatter using YML syntax.
+Check back soon for upcoming content.

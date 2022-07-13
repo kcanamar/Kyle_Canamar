@@ -2,11 +2,12 @@ import fs from 'fs';
 import matter from 'gray-matter';
 import Image from 'next/image';
 import Link from 'next/link';
-import { BlogTitle, BlogWrapper, MainWrapper } from '../styled_components/mainpage';
+import { BlogTitle, BlogWrapper, MainWrapper, Heading } from '../styled_components/mainpage';
 
 // The Blog Page Content
 export default function Blog({posts}){
     return <MainWrapper>
+        <Heading>Welcome to The Elevation Blog</Heading>
         {posts.map(post => {
             //extract slug and frontmatter
             const {slug, frontmatter} = post

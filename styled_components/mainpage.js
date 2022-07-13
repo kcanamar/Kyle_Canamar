@@ -85,14 +85,14 @@ export const BlogWrapper = styled.article`
 width: 325px;
 margin: auto;
 text-align: center;
-color: ${theme.color3};
+color: ${theme.color6};
 border: 3px solid ${theme.color2}
 `
 
 export const BlogTitle = styled.h1`
 &:hover {
     cursor: pointer;
-    color: ${theme.color1}
+    color: ${theme.color2}
 }
 `
 
@@ -106,6 +106,6 @@ export const PostWrapper = styled.main`
 width: ${theme.pageWidth};
 margin: 20px auto;
 text-align: center;
-color: ${theme.color3};
+color: ${theme.color6};
 border: 3px solid ${theme.color2}
 `
