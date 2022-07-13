@@ -4,6 +4,9 @@ const nextConfig = {
   experimental: {
     // Enables the styled-components SWC transform
     styledComponents: true
+  },
+  images: {
+    domains: ['https://i.imgur.com/'],
   }
 }
 

@@ -5,6 +5,8 @@ const theme = {
     color3: "#d8c691",
     color4: "#397bda",
     color5: "#CBB26B",
+    color6: "#000000",
+    color7: "#ffffff",
     pageWidth: "90%",
 }
 

@@ -9,8 +9,8 @@ function Project(props){
         <CardTitle>{project.name}</CardTitle>
         <CardDescription>{project.description}</CardDescription>
         <Row>
-            <CardButton>Github</CardButton>
-            <CardButton>Live</CardButton>
+            <CardButton as="a" href={project.githubLink}>Github</CardButton>
+            <CardButton as="a" href={project.liveLink}>Live</CardButton>
         </Row>
     </Card>
 }

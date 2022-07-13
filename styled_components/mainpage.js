@@ -5,11 +5,21 @@ export const MainWrapper = styled.main`
 width: ${theme.pageWidth};
 margin: 20px auto;
 `
-
+export const Section = styled.div`
+margin: auto;
+width: 80%;
+height: 75vh;
+text-align: center;
+background-color: ${props => props.theme.main};
+padding: 50px;
+`
 export const Column = styled.div`
 display:flex;
+justify-content: space-between;
+margin: auto 0;
+
 `
-// todo create Desciption styled.div and Skills styled.div
+
 export const Description = styled.div`
 font-size: 24px;
 text-align: center;
@@ -20,10 +30,11 @@ display: flex;
 justify-content: space-around;
 padding: 15px;
 flex-wrap: wrap;
+margin: auto 0;
 `
 
 export const Heading = styled.h2`
-color: ${theme.color4};
+color: ${theme.color6};
 font-size: 2.5em;
 text-align: center;
 
@@ -55,11 +66,21 @@ export const CardDescription = styled.p`
 export const CardButton = styled.button`
 width: 40%;
 background-color: ${theme.color1};
-color: ${theme.color3};
+color: ${theme.color7};
 border-radius: 25px;
 padding: 10px;
+text-align: center;
+text-decoration: none;
 `
-
+export const Calendar = styled.button`
+width: 40%;
+background-color: ${theme.color3};
+color: ${theme.color6};
+border-radius: 25px;
+padding: 10px;
+text-align: center;
+text-decoration: none;
+`
 export const BlogWrapper = styled.article`
 width: 325px;
 margin: auto;
