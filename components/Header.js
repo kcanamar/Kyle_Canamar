@@ -8,8 +8,8 @@ function Header(props) {
       <Title>{about.logo}</Title>
       <Menu>
           <Link href="/blog"><SubLink>Blog</SubLink></Link>
-          <ALink href={about.github}><i class="fa-brands fa-github-alt fa-3x"></i></ALink>
-          <ALink href={about.linkedIn}><i class="fa-brands fa-linkedin-in fa-3x"></i></ALink>
+          <ALink href={about.github}><i className="fa-brands fa-github-alt fa-3x"></i></ALink>
+          <ALink href={about.linkedIn}><i className="fa-brands fa-linkedin-in fa-3x"></i></ALink>
       </Menu>
     </NavBar>
   );

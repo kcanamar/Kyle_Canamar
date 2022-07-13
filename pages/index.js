@@ -2,7 +2,7 @@ import Head from 'next/head'
 import Image from 'next/image'
 import projects from '../data/projects'
 import about from '../data/about'
-import { Heading, MainWrapper, Row, Column } from '../styled_components/mainpage'
+import { Heading, MainWrapper, Row, Column, Description } from '../styled_components/mainpage'
 import styles from '../styles/Home.module.css'
 import Project from '../components/Project'
 
@@ -13,10 +13,12 @@ export default function Home() {
       <Column>
         <Row>
           <Heading>I Develop Solutions</Heading>
-          <p>{about.description}
-          <br/><br/>
-          My Skills:<br/>
-          {about.skills}</p>
+          <Description>
+            <p>{about.description}
+            <br/><br/>
+            Noteable Skills<br/>
+            {about.skills}</p>
+          </Description>
         </Row>
         <Row>
           <div>

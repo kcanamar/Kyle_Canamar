@@ -3,5 +3,5 @@ import styled from "styled-components";
 
 export const FooterWrapper = styled.div`
 text-align: center;
-color: ${theme.color3};
+color: ${theme.color4};
 `

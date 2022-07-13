@@ -10,7 +10,11 @@ export const Column = styled.div`
 display:flex;
 `
 // todo create Desciption styled.div and Skills styled.div
-
+export const Description = styled.div`
+font-size: 24px;
+text-align: center;
+width: 70%
+`
 export const Row = styled.div`
 display: flex;
 justify-content: space-around;
@@ -22,6 +26,7 @@ export const Heading = styled.h2`
 color: ${theme.color4};
 font-size: 2.5em;
 text-align: center;
+
 `
 
 export const Card = styled.div`
