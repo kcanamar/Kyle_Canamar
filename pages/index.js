@@ -21,9 +21,10 @@ export default function Home() {
       <Section theme={main}>
         <Column>
           <Row>
-            <div>
+            <picture>
+              <source srcSet={about.headshot.main} type="image/webp"/>
               <img src={about.headshot.main} alt={about.title}/>
-            </div>
+            </picture>
           <Calendar as="a" href={about.calendar}>Schedule An Introduction</Calendar>
           </Row>
           <Row>
@@ -52,10 +53,11 @@ export default function Home() {
             </Description>
           </Row>
           <Row>
-            <div>
+            <picture>
+              <source srcSet={about.headshot.sub} type="image/webp"/>
               <img src={about.headshot.sub} alt={about.title}/>
-            </div>
-          <Calendar as="a" href={about.calendar}>Let's Get Acquainted</Calendar>
+            </picture>
+          <Calendar as="a" href={about.calendar}>Get Acquainted</Calendar>
           </Row>
         </Column>
       </Section>

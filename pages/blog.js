@@ -16,7 +16,7 @@ export default function Blog({posts}){
 
             //JSX for individual blog listing
             return <BlogWrapper key={title}>
-                <Link href={`/posts/${slug}`}>
+                <Link href={`/posts/${slug}`} passHref>
                     <BlogTitle>{title}</BlogTitle>
                 </Link>
                 <h3>{author}</h3>
